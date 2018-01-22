@@ -1,0 +1,468 @@
+/*#click2callPhone {
+    position: fixed;
+    background: #ef5400;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 6px 15px;
+}*/
+
+.modal-footer .btn.btn-default{
+    display: none !important;
+}
+
+.chatPanelBody
+{
+    overflow-y: scroll;
+    height: 250px;
+}
+
+@media screen and (min-width: 0px) and (min-height: 0px) and (max-width: 420px) and (max-height: 2529px){
+    .contactModalLogo{
+        width: 125px;
+    }
+
+    .modal-content h2{
+        font-size: 20px;
+        line-height: 30px;
+    }
+
+    .modal-content h4{
+        font-size: 14px;
+        margin-bottom: 15px !important;
+    }
+
+    button.btn-webrtc-departaments {
+        display: block !important;
+        width: 40%;
+        margin: 0.5%;
+        font-size: 85%;
+        padding: 5px 0px;
+    }
+
+    button.btn-webrtc-commsChannels {
+        display: block !important;
+        width: 40%;
+        margin: 0.5%;
+        font-size: 85%;
+        padding: 5px 0px;
+    }
+
+    button.btn-webrtc-footer {
+        width: 47%;
+        font-size: 85%;
+        padding: 5px 0px;
+        margin: 6px 1% !important;
+    }
+
+    .modal-footer button{
+        width: 40%;
+        margin: 0.5%;
+        font-size: 85%;
+        padding: 5px 0px;
+    }
+
+    .clientRow .agentRow{
+        overflow-wrap: break-word;
+        width: 125px;
+    }
+}
+
+@media screen and (min-width: 421px) and (min-height: 667px) and (max-width: 529px) and (max-height: 2529px){
+    .contactModalLogo{
+        width: 150px;
+    }
+
+    .modal-content h2{
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .modal-content h4{
+        font-size: 16px;
+        margin-bottom: 15px !important;
+    }
+
+    .btn-webrtc-departaments {
+        display: block !important;
+        width: 40%;
+        margin: 0.5%;
+        font-size: 85%;
+    }
+
+    .btn-webrtc-commsChannels {
+        display: block !important;
+        width: 40%;
+        margin: 0.5%;
+        font-size: 85%;
+    }
+
+    .btn-webrtc-footer {
+        width: 40%;
+        font-size: 85%;
+        padding: 5px 0px;
+        margin: 6px 1% !important;
+    }
+
+    .modal-footer button{
+        width: 40%;
+        margin: 0.5%;
+        font-size: 85%;
+        padding: 5px 0px;
+    }
+
+    .clientRow .agentRow{
+        overflow-wrap: break-word;
+        width: 175px;
+    }
+}
+
+@media screen and (min-width: 530px) and (min-height: 530px) and (max-width: 990px) and (max-height: 2160px){
+    .contactModalLogo{
+        width: 150px;
+    }
+
+    .modal-content h2{
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .modal-content h4{
+        font-size: 18px;
+        margin-bottom: 15px !important;
+    }
+
+    .btn-webrtc-departaments {
+        display: block !important;
+        width: 40%;
+        margin: 0.5%;
+        !*font-size: 85%;*!
+    }
+
+    .btn-webrtc-commsChannels {
+        display: block !important;
+        width: 40%;
+        margin: 0.5%;
+        !*    font-size: 85%;*!
+    }
+
+    .btn-webrtc-footer {
+        width: 40%;
+        padding: 5px 0px;
+        margin: 6px 1% !important;
+        !*font-size: 85%;*!
+    }
+
+    .modal-footer button{
+        width: 40%;
+        margin: 0.5%;
+        font-size: 85%;
+        padding: 5px 0px;
+    }
+
+    .clientRow .agentRow{
+        overflow-wrap: break-word;
+        width: 200px;
+    }
+
+}
+
+@media screen and (min-width: 991px) and (min-height: 530px) and (max-width: 1152px) and (max-height: 2160px){
+    .contactModalLogo{
+        width: 175px;
+    }
+
+    .modal-content h2{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .modal-content h4{
+        font-size: 20px;
+        margin-bottom: 15px !important;
+    }
+
+    .btn-webrtc-departaments {
+        display: block !important;
+        width: 40%;
+        margin: 0.5%;
+        !*font-size: 85%;*!
+    }
+
+    .btn-webrtc-commsChannels {
+        display: block !important;
+        width: 40%;
+        margin: 0.5%;
+        !*    font-size: 85%;*!
+    }
+
+    .btn-webrtc-footer {
+        width: 40%;
+        padding: 5px 0px;
+        margin: 6px 1% !important;
+        !*font-size: 85%;*!
+    }
+
+    .modal-dialog {
+        width: 100% !important;
+    }
+
+    .modal-footer button{
+        width: 40%;
+        margin: 0.5%;
+        font-size: 85%;
+        padding: 5px 0px;
+    }
+
+    .clientRow .agentRow{
+        overflow-wrap: break-word;
+        width: 250px;
+    }
+}
+
+@media screen and (min-width: 1153px) and (min-height: 530px) and (max-width: 2560px) and (max-height: 2160px){
+    .contactModalLogo{
+        width: 250px;
+    }
+
+    .modal-content h2{
+        font-size: 32px;
+        line-height: 30px;
+    }
+
+    .modal-content h4{
+        font-size: 20px;
+        margin-bottom: 15px !important;
+    }
+
+    .btn-webrtc-departaments {
+        display: block !important;
+        width: 40%;
+        margin: 0.5%;
+        !*font-size: 85%;*!
+    }
+
+    .btn-webrtc-commsChannels {
+        display: block !important;
+        width: 40%;
+        margin: 0.5%;
+        !*    font-size: 85%;*!
+    }
+
+    .btn-webrtc-footer {
+        width: 40%;
+        padding: 5px 0px;
+        margin: 6px 1% !important;
+        !*font-size: 85%;*!
+    }
+
+    .modal-footer button{
+        width: 40%;
+        margin: 0.5%;
+        font-size: 85%;
+        padding: 5px 0px;
+    }
+
+    .clientRow .agentRow{
+        overflow-wrap: break-word;
+        width: 300px;
+    }
+}
+
+
+
+
+
+
+/*
+
+#click2callPhone:hover button{
+    background: #d64b00;
+}
+
+#click2callPhone {
+    visibility: hidden;
+}
+
+#click2callPhone button {
+    position: fixed;
+    background: #ef5400;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding: 6px 15px;
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+    text-align: center;
+    line-height: 250%;
+    visibility: visible;
+}
+
+#click2callPhone button svg {
+    margin-right: 7px;
+}
+
+#contactsModal {
+    box-shadow: none;
+    background-color: transparent;
+}
+
+#ulAudioEvents li {
+    width: 100%;
+}
+
+#ulVoiceEvents li{
+    width: 100%;
+}
+
+#localTracksPlaceholder video{
+    width: 50%;
+}
+
+#tracksPlaceholder video{
+    width: 100%;
+}
+
+[type="radio"]:not(:checked), [type="radio"]:checked {
+     position: unset;
+     left: 0px;
+     opacity: 100;
+}
+
+
+
+.voiceFeedbackRadioScore {
+!*    position: unset !important;
+    left: 0px !important;
+    opacity: 100 !important;*!
+    visibility: hidden;
+}
+
+.voiceFeedbackRadioIssue {
+    visibility: hidden;
+}
+
+
+.container.webrtc-events-log {
+    width: 100%;
+}
+
+@media screen and (min-width: 0px) and (min-height: 0px) and (max-width: 420px) and (max-height: 2529px){
+    button.btn-webrtc-departaments {
+        width: 40%;
+        margin: 0.5%;
+        font-size: 85%;
+        padding: 5px 0px;
+    }
+
+    button.btn-webrtc-commsChannels {
+        width: 40%;
+        margin: 0.5%;
+        font-size: 85%;
+        padding: 5px 0px;
+    }
+
+    button.btn-webrtc-footer {
+        width: 47%;
+        font-size: 85%;
+        padding: 5px 0px;
+        margin: 6px 1% !important;
+    }
+}
+
+@media screen and (min-width: 421px) and (min-height: 667px) and (max-width: 529px) and (max-height: 2529px){
+    .btn-webrtc-departaments {
+        width: 40%;
+        margin: 0.5%;
+        font-size: 85%;
+    }
+
+    .btn-webrtc-commsChannels {
+        width: 40%;
+        margin: 0.5%;
+        font-size: 85%;
+    }
+
+    .btn-webrtc-footer {
+        width: 40%;
+        font-size: 85%;
+        padding: 5px 0px;
+        margin: 6px 1% !important;
+    }
+}
+
+@media screen and (min-width: 530px) and (min-height: 530px) and (max-width: 990px) and (max-height: 2160px){
+    .btn-webrtc-departaments {
+        width: 40%;
+        margin: 0.5%;
+        !*font-size: 85%;*!
+    }
+
+    .btn-webrtc-commsChannels {
+        width: 40%;
+        margin: 0.5%;
+        !*    font-size: 85%;*!
+    }
+
+    .btn-webrtc-footer {
+        width: 40%;
+        padding: 5px 0px;
+        margin: 6px 1% !important;
+        !*font-size: 85%;*!
+    }
+
+}
+
+@media screen and (min-width: 991px) and (min-height: 530px) and (max-width: 1152px) and (max-height: 2160px){
+    .btn-webrtc-departaments {
+        width: 40%;
+        margin: 0.5%;
+        !*font-size: 85%;*!
+    }
+
+    .btn-webrtc-commsChannels {
+        width: 40%;
+        margin: 0.5%;
+        !*    font-size: 85%;*!
+    }
+
+    .btn-webrtc-footer {
+        width: 40%;
+        padding: 5px 0px;
+        margin: 6px 1% !important;
+        !*font-size: 85%;*!
+    }
+
+    .modal-dialog {
+        width: 100% !important;
+    }
+}
+
+@media screen and (min-width: 1153px) and (min-height: 530px) and (max-width: 2560px) and (max-height: 2160px){
+    .btn-webrtc-departaments {
+        width: 40%;
+        margin: 0.5%;
+        !*font-size: 85%;*!
+    }
+
+    .btn-webrtc-commsChannels {
+        width: 40%;
+        margin: 0.5%;
+        !*    font-size: 85%;*!
+    }
+
+    .btn-webrtc-footer {
+        width: 40%;
+        padding: 5px 0px;
+        margin: 6px 1% !important;
+        !*font-size: 85%;*!
+    }
+}
+*/
+
+
