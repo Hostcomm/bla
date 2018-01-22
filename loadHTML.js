@@ -323,7 +323,7 @@ function abcd(){
         </div>
 
     </div>
-$('#contactsModal').append(res);
+
     <div class="modal-footer">
         <button type="button" class="btn btn-default btn-close-modal btn-webrtc-footer" data-dismiss="modal">Hide</button>
         <button type="button" class="btn btn-primary btn-reset-modal btn-webrtc-footer" id="resetModalButton">Back to start</button>
