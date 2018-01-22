@@ -1,4 +1,5 @@
-var htmlcode = '
+function abcd(){
+    var htmlcode = '
 <div class="modal-content">
 
     <div class="modal-header">
@@ -330,6 +331,5 @@ $('#contactsModal').append(res);
     </div>
 </div>';
 
-function abcd(){
   $('#contactsModal').append(htmlcode);
 }
